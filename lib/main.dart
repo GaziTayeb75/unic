@@ -56,13 +56,15 @@ class Home extends StatelessWidget {
                 child: IconButton(color:Colors.black,iconSize: 90, onPressed: (){}, icon: Icon(Icons.water_drop_outlined)),
               ),
               SizedBox(height: 8,),
-              Text('If you submit code directly copy from chatgpt then mark will 0',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w700),)
-            ],
+              Text('If you submit code directly copy from chatgpt then mark will 0',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w700),),
+          SizedBox(height: 20,)  ],
+
           ),
         ),
       ),
     );
   }
 }
+
 
 
